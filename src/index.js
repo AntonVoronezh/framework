@@ -1,1 +1,4 @@
-console.log('app is work')
+import { bootstrap } from "./framework";
+import { appModule } from "./app/app.module";
+
+bootstrap(appModule);
